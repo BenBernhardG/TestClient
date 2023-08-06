@@ -1,0 +1,4 @@
+rootProject.name = 'TestClient'
+
+include ':mcp'
+project(":mcp").projectDir = file("projects/mcp")
